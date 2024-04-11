@@ -1,37 +1,3 @@
-const quizData = [
-    {
-        question: "Which language runs in a web browser",
-        a: "C",
-        b: "C++",
-        c: "JavaScript",
-        d: "Python",
-        correct:"c",
-    },
-    {
-        question: "What does HTML stand for?",
-        a: "HypeText Mark Language",
-        b: "HypeText Markup Language",
-        c: "HighText Markup Language",
-        d: "None of the above",
-        correct:"b",
-    },
-    {
-        question: "What does CSS stand for?",
-        a: "Cascading Style Sheets",
-        b: "Central Style Sheets",
-        c: "Cascading Simple Sheets",
-        d: "None of the above",
-        correct:"a",
-    },
-    {
-        question: "What are the three major languages for web design?",
-        a: "Java,HTML,CSS",
-        b: "JavaScript,C,HTML",
-        c: "JavaScript,HTML,CSS",
-        d: "None of the above",
-        correct:"c",
-    }
-];
 const quiz = document.getElementById("quiz");
 const answersA1 = document.querySelectorAll(".answer");
 const questionA1 = document.getElementById("question");
